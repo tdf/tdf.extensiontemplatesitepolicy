@@ -41,6 +41,13 @@ setup(name='tdf.extensiontemplatesitepolicy',
       install_requires=[
           'setuptools',
           # -*- Extra requirements: -*-
+      collective.ATClamAV,
+      tdf.templateuploadcenter,
+      tdf.extensionsuploadcenter,
+      tdf.siteaccountrequest,
+      collective.ATClamAV,
+      plone.app.dexterity [grok, relations],
+      
       ],
       extras_require={'test': ['plone.app.testing']},
       entry_points="""
@@ -48,6 +55,6 @@ setup(name='tdf.extensiontemplatesitepolicy',
       [z3c.autoinclude.plugin]
       target = plone
       """,
-      setup_requires=["PasteScript"],
-      paster_plugins=["templer.localcommands"],
+#      setup_requires=["PasteScript"],
+#      paster_plugins=["templer.localcommands"],
       )
