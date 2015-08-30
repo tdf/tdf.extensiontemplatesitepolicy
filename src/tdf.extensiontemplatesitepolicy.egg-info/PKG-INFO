@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: tdf.extensiontemplatesitepolicy
+Version: 1.0
+Summary: The policy package for the new LibreOffice extensions and templates website
+Home-page: http://github.com/tdf/tdf.extensiontemplatesitepolicy
+Author: Andreas Mantke
+Author-email: maand@gmx.de
+License: gpl
+Description: .. contents::
+        
+        Introduction
+        ============
+        
+        The policy package for the new LibreOffice extensions and templates website.
+        Contributors
+        ============
+        
+        Andreas Mantke, Author
+        
+        Changelog
+        =========
+        
+        1.0-dev (unreleased)
+        --------------------
+        
+        - Package created using templer
+          [Andreas Mantke]
+        
+Keywords: Plone Policy LibreOffice Extensions Templates Website
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
