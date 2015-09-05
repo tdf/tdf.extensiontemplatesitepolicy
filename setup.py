@@ -48,7 +48,7 @@ setup(name='tdf.extensiontemplatesitepolicy',
           'plone.api',
           'plone.app.dexterity [grok, relations]',
           'plone.multilingualbehavior',
-          'plone.app.multilingual [archetypes]',
+          'plone.app.multilingual [archetypes, dexterity]',
           'cioppino.twothumbs',
       
       ],
