@@ -50,6 +50,7 @@ setup(name='tdf.extensiontemplatesitepolicy',
           'plone.multilingualbehavior',
           'plone.app.multilingual [archetypes, dexterity]',
           'cioppino.twothumbs',
+          'collective.z3cform.norobots',
       
       ],
       extras_require={'test': ['plone.app.testing']},
